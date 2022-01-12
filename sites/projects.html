@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Compability for Microsoft Edge-->
+    <meta name="author" content="Rini B. Mehta"> <!--Author tag-->
+    <meta name="description" content="Mehtadatalab will showcase visualizations on data related to global film history and culture"> <!--Description-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Adaptive Scaling-->
+    <!--Twitter tags-->
+    <meta name="twitter:card" content="summary_large_image"> 
+    <meta name="twitter:title" content="mehtadatalab">
+    <meta property="og:description" content="Mehtadatalab will showcase visualizations on data related to global film history and culture">
+    <meta property="og:title" content="mehtadatalab">
+    <meta property="og:image" content="https://mehtadatalab.web.illinois.edu/site-screen-cap.png"> 
+    <!--Website Title-->
+    <title>mehtadatalab</title>
+    <!--CSS Reference-->
+    <link rel="stylesheet" href="./style.css">
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!--AOS Library-->
+    <link rel="stylesheet" href="./css/aos.css">  
+</head>
+
+<body>
+
+<!--Navigation Bar-->
+<nav>
+  <div class = "nav-container">
+    <h1 style = "color: white">mehtadatalab</h1>
+
+    <div class = "topnav">
+        <a href="../index.html" >Home</a>
+        <a href="./about.html">About</a>
+        <!--"is-active" class should be changed based off current page-->
+        <a href="./projects.html" class = "is-active">Projects</a>
+        <a href="./gallery.html">Gallery</a>
+    </div>
+
+    <button class = "nav-round">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+  </div>   
+</nav>  
+
+<script type="text/javascript" src="about.js"></script><!--Javascript for website animations-->
+
+<div class="main">
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1 class = "projects-title">Check out my projects below!</h1>
+  <hr>
+  <br>
+  <!--START Row One-->
+  <div class = "projects-row">
+    <!--Projects Card Start-->
+    <!--Copy Paste this Div and its contents in order to add a new card. Change values accordingly-->
+    <div class = "projects-col">
+      <div class = "grid-item">
+        <div class="card">
+          <!--Change image source when changing the project image-->
+          <img class="card-img" src="./assets/giitayan.png" alt="Giitayan Archive"/>
+          <div class="card-content">
+            <!--Change h1 contents to change the header-->
+            <h1 class="card-header">Giitaayan Archive of Hindi Film Music</h1>
+            <p class="card-text">
+              <!--Chance this text field to change the project description-->
+              <a class = "projects-link" href = "https://www.giitaayan.com/">The Giitaayan Archive</a> holds the lyrics and all available metadata of about 10,000 songs. This notebook contains a subset of the metadata.
+            </p>
+            <!--Change this link to the proper file for new project. Should be "./folder-name/index.html"-->
+            <form action = "./giitaayan/index.html">
+            <button class="card-btn">Read more <span>&rarr;</span></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Projects Card End (Repeat when modifying any other cards. Add projects row as necessary to start new row.)-->
+    <div class = "projects-col">
+      <div class = "grid-item">
+        <div class="card">
+          <img class="card-img" src="./assets/john-ford.png" alt="John Ford" />
+          <div class="card-content">
+            <h1 class="card-header">John Ford (1894 - 1973)</h1>
+            <p class="card-text">
+              This notebook visualizes data about John Martin Feeny, known professional as John Ford. He was an American film director and naval officer. 
+            </p>
+            <form action = "./john-ford/index.html">
+            <button class="card-btn">Read more <span>&rarr;</span></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class = "projects-col">
+      <div class = "grid-item">
+        <div class="card">
+          <img class="card-img" src="./assets/pakistan.png" alt="Cinema in Pakistan" />
+          <div class="card-content">
+            <h1 class="card-header">Cinema in Pakistan: Selected Datasets</h1>
+            <p class="card-text">
+              A number of visualizations based on the data provided by Pakistan Film Magazine. Read more to find comparisons with other data.
+            </p>
+            <form action = "./cinema-pakistan/index.html">
+            <button class="card-btn">Read more <span>&rarr;</span></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END Row One-->
+
+  <!--START Row Two-->
+  <div class = "projects-row">
+    <div class = "projects-col">
+      <div class = "grid-item">
+        <div class="card">
+          <img class="card-img" src="./assets/piketty.png" alt="Piketty" />
+          <div class="card-content">
+            <h1 class="card-header">from Piketty: Capital in the 21st Century</h1>
+            <p class="card-text">
+              This notebook is based on data and graphs from the magnum opus of the French Economist Thomas Piketty.
+            </p>
+            <form action = "./piketty/index.html">
+            <button class="card-btn">Read more <span>&rarr;</span></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class = "projects-col">
+      <div class = "grid-item">
+        <div class="card">
+          <img class="card-img" src="./assets/tagore.png" alt="Tagore Songs" />
+          <div class="card-content">
+            <h1 class="card-header">Tagore Songs Dataset</h1>
+            <p class="card-text">
+              Rabindranath Tagore (1861-1941) composed around 2,000 songs that came to be considered as a genre in Bengali music: Rabindrasangit or Rabindrasangeet.
+            </p>
+            <form action = "./tagore-songs/index.html">
+            <button class="card-btn">Read more <span>&rarr;</span></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class = "projects-col">
+      <div class = "grid-item">
+        <div class="card">
+          <img class="card-img" src="./assets/sen.png" alt="Circle of Sen" />
+          <div class="card-content">
+            <h1 class="card-header">The Circle of Sen: A Few More Good Women</h1>
+            <p class="card-text">
+              This is a visualization of the male-female ratio of credited actors in the films of Aparna Sen (b. 1945). All actors listed on IMDb are included.
+            </p>
+            <form action = "./sen/index.html">
+            <button class="card-btn">Read more <span>&rarr;</span></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END Row Two-->
+  <div class = "gallery-pages">
+    <a href="#">&laquo;</a>
+    <a class = "active" href="#">1</a>
+    <a href="./projects1.html">2</a>
+    <a href="./projects1.html">&raquo;</a>
+  </div>
+  <!-- END GRID -->
+</div>
+<!-- END MAIN -->
+
+<script src="./js/Jquery3.4.1.min.js"></script>
+<!--Owl-Carousel js-->
+<script src="./js/owl.carousel.min.js"></script>
+<!--AOS js Library-->
+<script src="./js/aos.js"></script>
+<!-- Custom Javascript file -->
+<script src="./js/main.js"></script>
+
+<!--Footer-->
+<footer class="footer">
+  <div class="container">
+      <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+          <h2>About us</h2>
+          <p>This website offers a window on the digital research and data visualizations of Rini B. Mehta, Associate Professor, Comparative and World Literature.</p>
+      </div>
+      <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+          <h2>Newsletter</h2>
+          <p>Stay up to date with our latest</p>
+          <div class="form-element">
+              <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+          </div>
+      </div>
+      
+      <div class="follow" data-aos="fade-left" data-aos-delay="200">
+          <h2>Follow us</h2>
+          <p>Let us be Social</p>
+          <div>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-youtube"></i>
+          </div>
+      </div>
+  </div>
+  <div class="move-up">
+      <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+  </div>
+</footer>
+<!--END Footer-->
+
+</body>
+</html>

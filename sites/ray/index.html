@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="twitter:card" content="summary_large_image">
+  <meta name="author" content="Rini B. Mehta">
+  <meta name="description" content="the projects page will showcase snippets from mehtadatalab's ongoing research in global film history and culture">
+  <meta name="twitter:title" content="mehtadatalab: projects">
+  <meta property="og:description" content="the projects page will showcase snippets from mehtadatalab's ongoing research in global film history and culture">
+  <meta property="og:title" content="mehtadatalab">
+  <meta property="og:image" content="https://mehtadatalab.web.illinois.edu/site-screen-cap.png"> 
+  <title>The Circle of Ray: A Few Good Women</title>
+  <link rel="stylesheet" type="text/css" href="./inspector.css">
+     <!--CSS Reference-->
+     <link rel="stylesheet" href="../style.css">
+     <!--Font Awesome Icons-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+     <!--AOS Library-->
+     <link rel="stylesheet" href="../css/aos.css">
+</head>
+
+
+<body>
+  <nav>
+    <div class = "nav-container">
+        <h1 style = "color: white">mehtadatalab</h1>
+
+            <div class = "topnav">
+                <a href="../../index.html" >Home</a>
+                <a href="../about.html">About</a>
+                <a href="../projects.html" class = "is-active">Projects</a>
+                <a href="../gallery.html">Gallery</a>
+            </div>
+
+            <button class = "nav-round">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+     </div>   
+</nav> 
+<div class = "wrapper-follow">
+  <div class = "follow-name1">Written by:</div>
+  <div class = "follow-name2">Rini B. Mehta</div>
+  <div class = "follow-subtitle">
+    Associate Professor,
+  </div>
+  <div class = "follow-subtitle">
+    Comparative and World Literature
+  </div>
+
+  <div class = "follow-subtitle1">
+    Follow:
+  </div>
+  <div class = "follow-social-icons">
+    <a href="#" class="fab fa-twitter-square"></a>
+  </div>
+</div>
+<script type="text/javascript" src="about.js"></script>
+
+    <script type="module">
+
+      import notebook from "./index.js";
+      import {Runtime, Library, Inspector} from "./runtime.js";
+          
+      const runtime = new Runtime();
+      const main = runtime.module(notebook, Inspector.into(document.getElementById("onotebook")));
+    </script>
+  <div id = "onotebook">
+
+  </div>
+
+    <script src="../js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="../js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="../js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="../js/main.js"></script>
+
+<footer class="footer">
+  <div class="container">
+      <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+          <h2>About us</h2>
+          <p>This website offers a window on the digital research and data visualizations of Rini B. Mehta, Associate Professor, Comparative and World Literature.</p>
+      </div>
+      <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+          <h2>Newsletter</h2>
+          <p>Stay up to date with our latest</p>
+          <div class="form-element">
+              <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+          </div>
+      </div>
+      
+      <div class="follow" data-aos="fade-left" data-aos-delay="200">
+          <h2>Follow us</h2>
+          <p>Let us be Social</p>
+          <div>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-youtube"></i>
+          </div>
+      </div>
+  </div>
+  <div class="move-up">
+      <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+  </div>
+</footer>
+</body>
+</html>

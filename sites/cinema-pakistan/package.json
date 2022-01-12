@@ -1,0 +1,14 @@
+{
+  "name": "89e81837d0f8a3be",
+  "main": "89e81837d0f8a3be@664.js",
+  "version": "664.0.0",
+  "homepage": "https://observablehq.com/d/89e81837d0f8a3be",
+  "author": {
+    "name": "Abhi Vinnakota",
+    "url": "https://observablehq.com/@avinnakota"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

@@ -1,0 +1,155 @@
+year,variable,value
+0,Western Europe,20
+1000,Western Europe,15
+1500,Western Europe,62
+1700,Western Europe,113
+1820,Western Europe,222
+1870,Western Europe,511
+1913,Western Europe,1259
+1950,Western Europe,1948
+1970,Western Europe,5013
+1990,Western Europe,8343
+2012,Western Europe,12692
+0,Eastern Europe,3
+1000,Eastern Europe,4
+1500,Eastern Europe,10
+1700,Eastern Europe,17
+1820,Eastern Europe,38
+1870,Eastern Europe,76
+1913,Eastern Europe,205
+1950,Eastern Europe,281
+1970,Eastern Europe,708
+1990,Eastern Europe,1073
+2012,Eastern Europe,2012
+0,Russia (+Ukr/ Blrs/ Mldvia),2
+1000,Russia (+Ukr/ Blrs/ Mldvia),3
+1500,Russia (+Ukr/ Blrs/ Mldvia),10
+1700,Russia (+Ukr/ Blrs/ Mldvia),18
+1820,Russia (+Ukr/ Blrs/ Mldvia),43
+1870,Russia (+Ukr/ Blrs/ Mldvia),95
+1913,Russia (+Ukr/ Blrs/ Mldvia),264
+1950,Russia (+Ukr/ Blrs/ Mldvia),580
+1970,Russia (+Ukr/ Blrs/ Mldvia),1457
+1990,Russia (+Ukr/ Blrs/ Mldvia),2072
+2012,Russia (+Ukr/ Blrs/ Mldvia),3083
+0,North America,0
+1000,North America,1
+1500,North America,1
+1700,North America,1
+1820,North America,17
+1870,North America,134
+1913,North America,726
+1950,North America,2048
+1970,North America,4395
+1990,North America,8413
+2012,North America,14257
+0,Latin America,3
+1000,Latin America,6
+1500,Latin America,9
+1700,Latin America,8
+1820,Latin America,19
+1870,Latin America,35
+1913,Latin America,156
+1950,Latin America,536
+1970,Latin America,1471
+1990,Latin America,2896
+2012,Latin America,6294
+0,Northern Africa,6
+1000,Northern Africa,7
+1500,Northern Africa,5
+1700,Northern Africa,5
+1820,Northern Africa,7
+1870,Northern Africa,13
+1913,Northern Africa,30
+1950,Northern Africa,66
+1970,Northern Africa,168
+1990,Northern Africa,430
+2012,Northern Africa,980
+0,Sub-Saharan Africa,5
+1000,Sub-Saharan Africa,12
+1500,Sub-Saharan Africa,21
+1700,Sub-Saharan Africa,30
+1820,Sub-Saharan Africa,36
+1870,Sub-Saharan Africa,48
+1913,Sub-Saharan Africa,78
+1950,Sub-Saharan Africa,209
+1970,Sub-Saharan Africa,495
+1990,Sub-Saharan Africa,797
+2012,Sub-Saharan Africa,1839
+0,China,36
+1000,China,37
+1500,China,82
+1700,China,110
+1820,China,305
+1870,China,253
+1913,China,322
+1950,China,327
+1970,China,601
+1990,China,1206
+2012,China,10386
+0,India,44
+1000,India,44
+1500,India,79
+1700,India,118
+1820,India,145
+1870,India,175
+1913,India,266
+1950,India,289
+1970,India,514
+1990,India,1020
+2012,India,4027
+0,Japan,2
+1000,Japan,4
+1500,Japan,11
+1700,Japan,21
+1820,Japan,29
+1870,Japan,35
+1913,Japan,99
+1950,Japan,222
+1970,Japan,1400
+1990,Japan,3172
+2012,Japan,3793
+0,Australia/NZ,0
+1000,Australia/NZ,0
+1500,Australia/NZ,0
+1700,Australia/NZ,0
+1820,Australia/NZ,0
+1870,Australia/NZ,8
+1913,Australia/NZ,35
+1950,Australia/NZ,89
+1970,Australia/NZ,212
+1990,Australia/NZ,393
+2012,Australia/NZ,807
+0,Middle East (w/ Turkey),16
+1000,Middle East (w/ Turkey),20
+1500,Middle East (w/ Turkey),17
+1700,Middle East (w/ Turkey),20
+1820,Middle East (w/ Turkey),24
+1870,Middle East (w/ Turkey),36
+1913,Middle East (w/ Turkey),65
+1950,Middle East (w/ Turkey),169
+1970,Middle East (w/ Turkey),659
+1990,Middle East (w/ Turkey),1449
+2012,Middle East (w/ Turkey),4021
+0,Central Asia,0
+1000,Central Asia,1
+1500,Central Asia,2
+1700,Central Asia,3
+1820,Central Asia,7
+1870,Central Asia,16
+1913,Central Asia,45
+1950,Central Asia,98
+1970,Central Asia,348
+1990,Central Asia,512
+2012,Central Asia,504
+0,Other Asian countries,5
+1000,Other Asian countries,9
+1500,Other Asian countries,22
+1700,Other Asian countries,30
+1820,Other Asian countries,39
+1870,Other Asian countries,56
+1913,Other Asian countries,130
+1950,Other Asian countries,271
+1970,Other Asian countries,703
+1990,Other Asian countries,2276
+2012,Other Asian countries,6476
